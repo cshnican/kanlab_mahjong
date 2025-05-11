@@ -4,7 +4,7 @@
 Kanwisher Lab Mahjong is mostly cloned and simplified from the Guizhou variation of the Mahjong game. Here we lay out the basic rules, along with some optional rules that might be added to make the game more interesting.
 
 ## Objective
-Kanwisher Lab Mahjong is a 4-person game. Everyone starts with a number of tokens. 
+Kanwisher Lab Mahjong is a 4-person game.
 One game usually lasts 10 minutes. 
 During a game, each person has a group of tiles ("牌" in Chinese) in their hands. 
 Each person takes turn to draw a tile and discards a tile, until the tile they draw forms a Mahjong with the rest. 
