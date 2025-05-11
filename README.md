@@ -11,5 +11,7 @@ Each person takes turn to draw a tile and discards a tile, until the tile they d
 If that's the case, the person having Mahjong first ends the game. 
 
 ## Setup
-There are 3 suits used in the game: 
-- Crack (万/萬): 36 in total, from 1 crack to 9 crack, 4 tiles for each number; "Crack" seems to be short for "character", since this suit is of Chinese characters. ![1 crack](./imgs/1_crack.png | width=100)
+There are 3 suits used in the game. Each suit contains 9 numbers from 1 to 9. Each number has 4 tiles.
+- <img src="./imgs/8_bam.png" width="20">  Bam (条): short for "bamboo". Note: the tile 1 bam looks like a bird. 
+- <img src="./imgs/1_crack.png" width="20"> Crack (万/萬): short for "character", since this suit is of Chinese characters. 
+- <img src="./imgs/5_dot.png" width="20"> Dot (筒)
