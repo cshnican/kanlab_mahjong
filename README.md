@@ -23,7 +23,7 @@ A Mahjong ("胡牌" or "和牌") is a group of 14 tiles with which a player wins
 
 A *pair* is 2 identical tiles, such as ```2-bam``` + ```2-bam```
 
-A group can either be a *triplet* (3 identical tiles) or a *straight* (3 consecutively-numbered tiles of the same suit). 
+A group can be either a *triplet* (3 identical tiles) or a *straight* (3 consecutively-numbered tiles of the same suit). 
 For example, a group can be ```3-bam``` + ```3-bam``` + ```3-bam``` (triplet), or ```5-dot``` + ```6-dot``` + ```7-dot``` (straight). A straight cannot be ```8-crack``` + ```9-crack``` + ```1-crack```.  
 
 
@@ -49,3 +49,26 @@ For example, a group can be ```3-bam``` + ```3-bam``` + ```3-bam``` (triplet), o
 ### Pausing for Mahjong
 - A player can also pause if the tile another player has just discarded forms a triplet or a pair with tiles in their hand, *and* the resulting 14 tiles forms a Mahjong.
 - Still, one cannot pause a game for a straight, even if the resulting straight forms a Mahjong.
+
+## Gameplay (Sihan's extension 1)
+This extension is closer to the Guizhou version of Mahjong, but the rules could be a bit complicated for beginners.
+The difference mainly lies in 1) what counts as a group and 2) when one can pause for Mahjong
+
+### Difference 1: what counts as a group
+A group can be a triplet (3 identical tiles), a straight (3 consecutively-numbered tiles of the same suit), or, additionally, a quad (4 identical tiles; 杠 in Chinese). A quad can only be counted as a group when it is put down, or otherwise, it is counted as a triplet plus an additional tile.
+
+When a player puts down a quad, they draw a tile from the pile deck and discard a pile to the discard area. The discarded tile is called a *projectile*, which will be relevant in the next section.
+
+Note: technically at the end of the round the player will have 14 tiles instead of 13, but again, a quad that is put down counts as 1 group (aka 3 tiles).
+
+### Difference 2: when the game can be paused for Mahjong
+In this extension, it is generally not permissible to pause for Mahjong. 
+A player can pause for Mahjong only under the following circumstances:
+
+- Scenario 1: there are no straights in the player's hand. In other words, either the player has 3 triplets and 2 pairs, waiting for the fourth triplet to get Mahjong, or the player has 4 triplets and 1 single tile, waiting for the pair to get Mahjong.
+
+- Scenario 2: the player has put down a quad.
+
+- Scenario 3: the tile another player has just discarded after putting down a quad (i.e. the projectile) forms a triplet or a pair leading to Mahjong. 
+
+Overall, this extension makes it stricter on the condition of Mahjong. The introduction of quads makes the game more unpredictable: while putting down a quad gives a player more flexibility to Mahjong (i.e. they can now pause for Mahjong), it also comes at a risk, because the player's projectile can potentially enable another player's Mahjong. This is even riskier in the next extension, as we introduce the point system. 
